@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+@font-face {
+    font-family: interVariable;
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+ }
+@font-face {
+    font-family: interBold;
+    src: url(./assets/fonts/static/Inter-Bold.ttf);
+ }
+@font-face {
+    font-family: interRegular;
+    src: url(./assets/fonts/static/Inter-Regular.ttf);
+ }
+@font-face {
+    font-family: interSemiBold;
+    src: url(./assets/fonts/static/Inter-SemiBold.ttf);
+ }
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card-container {
+    display: flex;
+    width: 340px;
+    height: 70vh;
+    flex-direction: column;
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+}
+
+.margin-container {
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.name {
+    font-family: interSemiBold;
+    font-size: 1.5rem;
+}
+
+.country {
+    font-family: interSemiBold;
+    color: hsl(75, 94%, 57%);
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.occupation {
+    font-family: interVariable;
+    color: #A0A0A0;
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+}
+
+
+.avatar-img {
+    width: 90px;
+    border-radius: 100px;
+}
+
+.buttom {
+    width: 275px;
+    height: 40px;
+    display: flex;
+    font-size: 0.85rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: #F2F2F2;
+    font-family: interSemiBold;
+    background-color: hsl(0, 0%, 20%);
+}
+
+.buttom:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: black;
+}
+
+.attribution {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.attribution a {
+    color: hsl(75, 94%, 57%);
+}
